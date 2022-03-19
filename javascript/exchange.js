@@ -2,7 +2,8 @@
  * 监控汇率变化
  * @author: Peng-YM
  * 修改人@author: rule-airport
- * 更新地址：
+ * 更新地址：https://github.com/rule-airport/quantumult-X-rule/blob/main/javascript/exchange.js
+ * 代码源地址：https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js
  * 配置方法：
  * 1. 设置基准货币，默认人民币(CNY)。
  * 2. 设置保留几位小数。
