@@ -4,6 +4,19 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
+dns:
+  enable: false
+  listen: 0.0.0.0:53
+  default-nameserver:
+    - 119.29.29.29
+    - 223.6.6.6
+  enhanced-mode: redir-host
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - 119.29.29.29
+    - 8.8.8.8
+    - https://doh.pub/dns-query
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
