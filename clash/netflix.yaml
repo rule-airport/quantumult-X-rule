@@ -23,7 +23,6 @@ payload:
   - DOMAIN-SUFFIX,nflxvideo.net
   - DOMAIN-SUFFIX,sessions.bugsnag.com
   - DOMAIN-KEYWORD,netflix
-USER-AGENT,Argo*
   - DOMAIN-SUFFIX,netflixdnstest10.com
   - DOMAIN-SUFFIX,netflix.com.edgesuite.net
   - DOMAIN-SUFFIX,us-west-2.amazonaws.com
