@@ -1,4 +1,5 @@
-  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
+payload:
+- DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
   - DOMAIN-KEYWORD,dualstack.apiproxy-
   - DOMAIN-KEYWORD,netflixdnstest
   - DOMAIN,netflix.com.edgesuite.net
