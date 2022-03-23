@@ -12,7 +12,7 @@ DOMAIN-SUFFIX,youtubegaming.com,📹 油管视频
 DOMAIN-SUFFIX,youtubekids.com,📹 油管视频
 DOMAIN-SUFFIX,yt.be,📹 油管视频
 DOMAIN-SUFFIX,ytimg.com,📹 油管视频
-DOMAIN-SUFFIX,gstatic.com,📹 油管视频
+DOMAIN,www.gstatic.com,📹 油管视频
 DOMAIN-SUFFIX,suggestqueries.google.com,📹 油管视频
 //youtube music
 USER-AGENT,*youtubemusic*,📹 油管视频
