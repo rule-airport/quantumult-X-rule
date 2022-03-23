@@ -1,3 +1,4 @@
+  payload:
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,ip6-localhost
   - DOMAIN-SUFFIX,ip6-loopback
