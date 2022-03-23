@@ -1,0 +1,395 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 👌 手动切换
+      - DIRECT
+  - name: 👌 手动切换
+    type: select
+    use: 
+      - Global
+  - name: 📲 电报消息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 👌 手动切换
+      - DIRECT
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 👌 手动切换
+      - DIRECT
+  - name: 🌐 谷歌
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 👌 手动切换
+  - name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 👌 手动切换
+      - DIRECT
+  - name: 📽 迪士尼视频
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 🇺🇲 美国节点
+      - 👌 手动切换
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🇨🇳 台湾节点
+      - 🚀 节点选择
+      - 👌 手动切换
+      - DIRECT
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇨🇳 台湾节点
+      - 🇭🇰 香港节点
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 👌 手动切换
+      - DIRECT
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 👌 手动切换
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 👌 手动切换
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 👌 手动切换
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
+      - 👌 手动切换
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 新加坡节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
+      - 👌 手动切换
+  - name: 🇭🇰 香港节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use: 
+      - HK
+  - name: 🇯🇵 日本节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use: 
+      - Japan
+  - name: 🇺🇲 美国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use: 
+      - United
+  - name: 🇨🇳 台湾节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use: 
+      - TaiWan
+  - name: 🇸🇬 新加坡节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use: 
+      - Singapore
+  - name: 🇰🇷 韩国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    use: 
+      - KR
+proxy-providers: 
+  HK:
+    type: http
+    url: "url机场订阅"
+    interval: 3600
+    filter: '香港|Hong Kong'
+    path: ./Proxy/hongkong_suwatorjan.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  Singapore:
+    type: http
+    url: "url机场订阅"
+    interval: 3600
+    filter: '新加坡|狮城|Singapore'
+    path: ./Proxy/Singapor_suwatorjane.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  TaiWan:
+    type: http
+    url: "url机场订阅"
+    interval: 3600
+    filter: '台湾|Taiwan'
+    path: ./Proxy/TaiWan_suwatorjan.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  United:
+    type: http
+    url: "url机场订阅"
+    interval: 3600
+    filter: '美国|United'
+    path: ./Proxy/United_suwatorjan.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  Japan:
+    type: http
+    url: "url机场订阅"
+    interval: 3600
+    filter: '日本|Japan'
+    path: ./Proxy/Japan_suwatorjan.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  KR:
+    type: http
+    url: "url机场订阅"
+    interval: 3600
+    filter: '韩国|South Korea'
+    path: ./Proxy/KR_suwatorjan.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  Global:
+    type: http
+    url: "url机场订阅"
+    interval: 3600
+    path: ./Proxy/Global_suwatorjan.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+rules:
+  - RULE-SET,direct1,🎯 全球直连
+  - RULE-SET,adblock,🛑 广告拦截
+  - RULE-SET,youtube,📹 油管视频
+  - RULE-SET,google,🌐 谷歌
+  - RULE-SET,microsoft,Ⓜ️ 微软服务
+  - RULE-SET,apple,🍎 苹果服务
+  - RULE-SET,telegram,📲 电报消息
+  - RULE-SET,netflix,🎥 奈飞视频
+  - RULE-SET,disney,📽 迪士尼视频
+  - RULE-SET,bahumut,📺 巴哈姆特
+  - RULE-SET,bilibili,📺 哔哩哔哩
+  - RULE-SET,streamingcn,🌏 国内媒体
+  - RULE-SET,streaming,🌍 国外媒体
+  - RULE-SET,game,🎮 游戏平台
+  - RULE-SET,select,🚀 节点选择
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,224.0.0.0/4,DIRECT
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
+rule-providers:
+  direct1:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/direct.yaml"
+    interval: 3600
+    path: ./RuleSet/direct1.yaml
+  adblock:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/adblock.yaml"
+    interval: 3600
+    path: ./RuleSet/adblock.yaml
+  youtube:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/youtube.yaml"
+    interval: 3600
+    path: ./RuleSet/youtube.yaml
+  google:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/google.yaml"
+    interval: 3600
+    path: ./RuleSet/google.yaml
+  microsoft:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/microsoft.yaml"
+    interval: 3600
+    path: ./RuleSet/microsoft.yaml
+  apple:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/apple.yaml"
+    interval: 3600
+    path: ./RuleSet/apple.yaml
+  telegram:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/telegram.yaml"
+    interval: 3600
+    path: ./RuleSet/telegram.yaml
+  netflix:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/netflix.yaml"
+    interval: 3600
+    path: ./RuleSet/netflix.yaml
+  disney:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/disney.yaml"
+    interval: 3600
+    path: ./RuleSet/disney.yaml
+  bahumut:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/bahumut.yaml"
+    interval: 3600
+    path: ./RuleSet/bahumut.yaml
+  bilibili:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/bilibili.yaml"
+    interval: 3600
+    path: ./RuleSet/bilibili.yaml
+  streamingcn:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/streamingcn.yaml"
+    interval: 3600
+    path: ./RuleSet/streamingcn.yaml
+  streaming:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/streaming.yaml"
+    interval: 3600
+    path: ./RuleSet/streaming.yaml
+  game:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/game.yaml"
+    interval: 3600
+    path: ./RuleSet/game.yaml
+  select:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/select.yaml"
+    interval: 3600
+    path: ./RuleSet/select.yaml
