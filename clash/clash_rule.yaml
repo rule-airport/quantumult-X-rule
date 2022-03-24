@@ -294,7 +294,6 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 rules:
   - RULE-SET,direct1,🎯 全球直连
-  - RULE-SET,adblock,🛑 广告拦截
   - RULE-SET,youtube,📹 油管视频
   - RULE-SET,google,🌐 谷歌
   - RULE-SET,microsoft,Ⓜ️ 微软服务
@@ -308,6 +307,7 @@ rules:
   - RULE-SET,streaming,🌍 国外媒体
   - RULE-SET,game,🎮 游戏平台
   - RULE-SET,select,🚀 节点选择
+  - RULE-SET,adblock,🛑 广告拦截
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
   - IP-CIDR,172.16.0.0/12,DIRECT
