@@ -38,7 +38,6 @@ payload:
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
   - DOMAIN,tracking.miui.com
-  - DOMAIN,app.adjust.com
   - DOMAIN,bdtj.tagtic.cn
   - DOMAIN-SUFFIX,13th.tech
   - DOMAIN-SUFFIX,423down.com
