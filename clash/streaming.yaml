@@ -177,7 +177,6 @@ payload:
   - DOMAIN-SUFFIX,spoti.fi
   - DOMAIN-SUFFIX,spotifycdn.com
   - DOMAIN-SUFFIX,spotifycdn.net
-  - DOMAIN-SUFFIX,app.adjust.com
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com
   - DOMAIN-SUFFIX,tidal.com
   - DOMAIN-SUFFIX,tidalhifi.com
