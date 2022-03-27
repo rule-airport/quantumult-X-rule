@@ -5,6 +5,7 @@ payload:
   - DOMAIN-KEYWORD,adsensor
   - DOMAIN-KEYWORD,adservice
   - DOMAIN-KEYWORD,adsmogo
+  - DOMAIN-KEYWORD,app.adjust
   - DOMAIN-KEYWORD,adsrvmedia
   - DOMAIN-KEYWORD,adsserving
   - DOMAIN-KEYWORD,adsystem
@@ -116,7 +117,6 @@ payload:
   - DOMAIN-SUFFIX,appjiagu.com
   - DOMAIN-SUFFIX,applifier.com
   - DOMAIN-SUFFIX,appsflyer.com
-  - DOMAIN-KEYWORD,app.adjust
   - DOMAIN-SUFFIX,atdmt.com
   - DOMAIN-SUFFIX,baifendian.com
   - DOMAIN-SUFFIX,banmamedia.com
