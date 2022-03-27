@@ -116,7 +116,7 @@ payload:
   - DOMAIN-SUFFIX,appjiagu.com
   - DOMAIN-SUFFIX,applifier.com
   - DOMAIN-SUFFIX,appsflyer.com
-  - DOMAIN-SUFFIX,app.adjust.com
+  - DOMAIN-KEYWORD,app.adjust
   - DOMAIN-SUFFIX,atdmt.com
   - DOMAIN-SUFFIX,baifendian.com
   - DOMAIN-SUFFIX,banmamedia.com
