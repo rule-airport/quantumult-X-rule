@@ -9,6 +9,7 @@ payload:
   - DOMAIN-SUFFIX,c4assets.com
   - DOMAIN-SUFFIX,channel4.com
   - DOMAIN-KEYWORD,avoddashs
+  - DOMAIN-KEYWORD,app.adjust
   - DOMAIN,atv-ps.amazon.com
   - DOMAIN,avodmp4s3ww-a.akamaihd.net
   - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
