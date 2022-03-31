@@ -1,9 +1,13 @@
 payload:
-  - DOMAIN-KEYWORD,youtube
+  - DOMAIN,www.gstatic.com
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN,yt3.ggpht.com
+  - DOMAIN-KEYWORD,youtube
+  - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,googleadservices.com
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,rr1---sn-i3belney.googlevideo.com
+  - DOMAIN-SUFFIX,suggestqueries.google.com
   - DOMAIN-SUFFIX,withyoutube.com
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,youtube-nocookie.com
@@ -11,9 +15,7 @@ payload:
   - DOMAIN-SUFFIX,youtubeeducation.com
   - DOMAIN-SUFFIX,youtubegaming.com
   - DOMAIN-SUFFIX,youtubekids.com
-  - DOMAIN-SUFFIX,yt.be
-  - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN,www.gstatic.com
-  - DOMAIN-SUFFIX,suggestqueries.google.com
   - DOMAIN-SUFFIX,youtubemusic
   - DOMAIN-SUFFIX,YouTubeMusic
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,ytimg.com
