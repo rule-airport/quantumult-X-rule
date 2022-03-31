@@ -1,8 +1,7 @@
 DOMAIN-KEYWORD,youtube,📹 油管视频
-DOMAIN,youtubei.googleapis.com,📹 油管视频
-DOMAIN,yt3.ggpht.com,📹 油管视频
 DOMAIN-SUFFIX,googlevideo.com,📹 油管视频
 DOMAIN-SUFFIX,rr1---sn-i3belney.googlevideo.com,📹 油管视频
+DOMAIN-SUFFIX,suggestqueries.google.com,📹 油管视频
 DOMAIN-SUFFIX,withyoutube.com,📹 油管视频
 DOMAIN-SUFFIX,youtu.be,📹 油管视频
 DOMAIN-SUFFIX,youtube-nocookie.com,📹 油管视频
@@ -13,7 +12,7 @@ DOMAIN-SUFFIX,youtubekids.com,📹 油管视频
 DOMAIN-SUFFIX,yt.be,📹 油管视频
 DOMAIN-SUFFIX,ytimg.com,📹 油管视频
 DOMAIN,www.gstatic.com,📹 油管视频
-DOMAIN-SUFFIX,suggestqueries.google.com,📹 油管视频
-//youtube music
+DOMAIN,youtubei.googleapis.com,📹 油管视频
+DOMAIN,yt3.ggpht.com,📹 油管视频
 USER-AGENT,*youtubemusic*,📹 油管视频
 USER-AGENT,YouTubeMusic*,📹 油管视频
