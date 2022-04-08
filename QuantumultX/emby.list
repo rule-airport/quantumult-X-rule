@@ -1,0 +1,5 @@
+DOMAIN-SUFFIX,emby.misakaf.xyz,emby
+DOMAIN-SUFFIX,jellyfin.xeton.dev,emby
+ip-cidr,104.21.233.209,emby
+ip-cidr,194.180.179.226,emby
+ip-cidr,204.44.98.51,emby
