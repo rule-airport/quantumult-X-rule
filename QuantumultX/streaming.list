@@ -53,7 +53,6 @@ DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🌍 国外媒体
 DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
 DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
 DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
-DOMAIN-SUFFIX,emby.misakaf.xyz,emby
 DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
 DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
 DOMAIN-SUFFIX,fox.com,🌍 国外媒体
@@ -212,11 +211,7 @@ DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
 DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
 DOMAIN,players.brightcove.net,🌍 国外媒体
 DOMAIN,s3-ap-southeast-1.amazonaws.com,🌍 国外媒体
-DOMAIN-SUFFIX,jellyfin.xeton.dev,emby
 DOMAIN,videos-f.jwpsrv.com,🌍 国外媒体
 DOMAIN,vod-dash-uk-live.akamaized.net,🌍 国外媒体
 DOMAIN,vod-thumb-uk-live.akamaized.net,🌍 国外媒体
-ip-cidr,104.21.233.209,emby
-ip-cidr,194.180.179.226,emby
-ip-cidr,204.44.98.51,emby
 USER-AGENT,*Spotify*,🌍 国外媒体
