@@ -683,12 +683,12 @@ IP-CIDR,45.253.132.0/22,🎯 全球直连,no-resolve
 IP-CIDR,45.253.240.0/22,🎯 全球直连,no-resolve
 IP-CIDR,45.254.48.0/23,🎯 全球直连,no-resolve
 IP-CIDR,47.52.0.0/16,🎯 全球直连,no-resolve
-IP-CIDR,47.56.0.0/15,🎯 全球直连,no-resolve
 IP-CIDR,47.74.0.0/15,🎯 全球直连,no-resolve
 IP-CIDR,47.76.0.0/14,🎯 全球直连,no-resolve
 IP-CIDR,47.80.0.0/12,🎯 全球直连,no-resolve
 IP-CIDR,47.235.0.0/16,🎯 全球直连,no-resolve
 IP-CIDR,47.236.0.0/14,🎯 全球直连,no-resolve
+IP-CIDR,47.240.0.0/14,🎯 全球直连,no-resolve
 IP-CIDR,47.244.0.0/15,🎯 全球直连,no-resolve
 IP-CIDR,47.246.0.0/16,🎯 全球直连,no-resolve
 IP-CIDR,47.250.0.0/15,🎯 全球直连,no-resolve
@@ -821,6 +821,7 @@ IP-CIDR,140.205.122.0/24,🎯 全球直连,no-resolve
 IP-CIDR,146.56.192.0/18,🎯 全球直连,no-resolve
 IP-CIDR,147.139.0.0/16,🎯 全球直连,no-resolve
 IP-CIDR,148.70.0.0/16,🎯 全球直连,no-resolve
+IP-CIDR,149.129.0.0/16,🎯 全球直连,no-resolve
 IP-CIDR,150.109.0.0/16,🎯 全球直连,no-resolve
 IP-CIDR,152.136.0.0/16,🎯 全球直连,no-resolve
 IP-CIDR,155.102.0.0/16,🎯 全球直连,no-resolve
