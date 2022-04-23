@@ -28,7 +28,7 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
       - 👌 手动切换
-      - DIRECT
+      -  🎯 全球直连
   - name: 👌 手动切换
     type: select
     use: 
@@ -44,12 +44,12 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
       - 👌 手动切换
-      - DIRECT
+      -  🎯 全球直连
   - name: 🌐 谷歌
     type: select
     proxies:
       - 🚀 节点选择
-      - DIRECT
+      -  🎯 全球直连
       - 🇸🇬 新加坡节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -68,12 +68,12 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
       - 👌 手动切换
-      - DIRECT
+      -  🎯 全球直连
   - name: 📽 迪士尼视频
     type: select
     proxies:
       - 🚀 节点选择
-      - DIRECT
+      -  🎯 全球直连
       - 🇸🇬 新加坡节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -87,7 +87,7 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🚀 节点选择
       - 👌 手动切换
-      - DIRECT
+      -  🎯 全球直连
   - name: 📺 哔哩哔哩
     type: select
     proxies:
@@ -105,11 +105,11 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇰🇷 韩国节点
       - 👌 手动切换
-      - DIRECT
+      -  🎯 全球直连
   - name: 🌏 国内媒体
     type: select
     proxies:
-      - DIRECT
+      -  🎯 全球直连
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇸🇬 新加坡节点
@@ -119,7 +119,7 @@ proxy-groups:
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
-      - DIRECT
+      -  🎯 全球直连
       - 🚀 节点选择
       - 🇺🇲 美国节点
       - 🇭🇰 香港节点
@@ -131,7 +131,7 @@ proxy-groups:
   - name: 🍎 苹果服务
     type: select
     proxies:
-      - DIRECT
+      -  🎯 全球直连
       - 🚀 节点选择
       - 🇺🇲 美国节点
       - 🇭🇰 香港节点
@@ -143,7 +143,7 @@ proxy-groups:
   - name: 🎮 游戏平台
     type: select
     proxies:
-      - DIRECT
+      -  🎯 全球直连
       - 🚀 节点选择
       - 🇺🇲 美国节点
       - 🇭🇰 香港节点
@@ -166,7 +166,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
-      - DIRECT
+      -  🎯 全球直连
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇸🇬 新加坡节点
@@ -288,7 +288,7 @@ rules:
   - RULE-SET,apple,🍎 苹果服务
   - RULE-SET,netflix,🎥 奈飞视频
   - RULE-SET,disney,📽 迪士尼视频
-  - RULE-SET,bahumut,📺 巴哈姆特
+  - RULE-SET,bahumut,🇨🇳 台湾节点
   - RULE-SET,bilibili,📺 哔哩哔哩
   - RULE-SET,streamingcn,🌏 国内媒体
   - RULE-SET,streaming,🌍 国外媒体
