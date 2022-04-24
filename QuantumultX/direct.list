@@ -216,7 +216,6 @@ DOMAIN-SUFFIX,fresh-ideas.cc,🎯 全球直连
 DOMAIN-SUFFIX,ganji.com,🎯 全球直连
 DOMAIN-SUFFIX,ganjistatic1.com,🎯 全球直连
 DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
-DOMAIN-SUFFIX,geetest.com,🎯 全球直连
 DOMAIN-SUFFIX,geilicdn.com,🎯 全球直连
 DOMAIN-SUFFIX,ghpym.com,🎯 全球直连
 DOMAIN-SUFFIX,gifshow.com,🎯 全球直连
@@ -540,7 +539,6 @@ DOMAIN-SUFFIX,tuniu.com,🎯 全球直连
 DOMAIN-SUFFIX,tuniucdn.com,🎯 全球直连
 DOMAIN-SUFFIX,ucweb.com,🎯 全球直连
 DOMAIN-SUFFIX,udache.com,🎯 全球直连
-DOMAIN-SUFFIX,umengcloud.com,🎯 全球直连
 DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
 DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
 DOMAIN-SUFFIX,upyun.com,🎯 全球直连
@@ -648,7 +646,6 @@ DOMAIN,fairplay.l.qq.com,🎯 全球直连
 DOMAIN,instant.arubanetworks.com,🎯 全球直连
 DOMAIN,livew.l.qq.com,🎯 全球直连
 DOMAIN,msg.umeng.com,🎯 全球直连
-DOMAIN,msg.umengcloud.com,🎯 全球直连
 DOMAIN,origin-a.akamaihd.net,🎯 全球直连
 DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
 DOMAIN,router.asus.com,🎯 全球直连
@@ -778,8 +775,6 @@ IP-CIDR,116.71.251.0/24,🎯 全球直连,no-resolve
 IP-CIDR,116.251.64.0/18,🎯 全球直连,no-resolve
 IP-CIDR,117.78.0.0/18,🎯 全球直连,no-resolve
 IP-CIDR,119.3.0.0/16,🎯 全球直连,no-resolve
-IP-CIDR,119.8.0.0/21,🎯 全球直连,no-resolve
-IP-CIDR,119.8.32.0/19,🎯 全球直连,no-resolve
 IP-CIDR,119.28.0.0/15,🎯 全球直连,no-resolve
 IP-CIDR,119.38.208.0/20,🎯 全球直连,no-resolve
 IP-CIDR,119.38.224.0/20,🎯 全球直连,no-resolve
