@@ -296,6 +296,8 @@ rules:
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
 rule-providers:
+
+#将raw.githubusercontent.com反代，域名在tg收藏夹里
   direct1:
     behavior: classical
     type: http
