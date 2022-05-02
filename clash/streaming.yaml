@@ -217,6 +217,3 @@ payload:
   - DOMAIN-SUFFIX,viu.now.com
   - DOMAIN-SUFFIX,viu.tv
   - DOMAIN-SUFFIX,yb.uncn.jp
-  - ip-cidr,104.21.233.209,emby
-  - ip-cidr,194.180.179.226,emby
-  - ip-cidr,204.44.98.51,emby
