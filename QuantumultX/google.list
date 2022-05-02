@@ -67,7 +67,7 @@ DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🌐 谷歌
 DOMAIN-SUFFIX,www.gstatic.com,🌐 谷歌
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🌐 谷歌
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🌐 谷歌
-DOMAIN-SUFFIX,web.voice.telephony.goog,🌐 谷歌
+DOMAIN-SUFFIX,telephony.goog,🌐 谷歌
 DOMAIN,mtalk.google.com,🌐 谷歌
 IP-CIDR,64.233.177.188/32,🌐 谷歌,no-resolve
 IP-CIDR,64.233.186.188/32,🌐 谷歌,no-resolve
