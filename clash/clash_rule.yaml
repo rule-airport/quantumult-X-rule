@@ -26,7 +26,7 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - 🇪🇺 欧洲节点
       - 👌 手动切换
       -  🎯 全球直连
   - name: 👌 手动切换
@@ -42,7 +42,7 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - 🇪🇺 欧洲节点
       - 👌 手动切换
       -  🎯 全球直连
   - name: 🌐 谷歌
@@ -55,7 +55,7 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - 🇪🇺 欧洲节点
       - 👌 手动切换
   - name: 🎥 奈飞视频
     type: select
@@ -66,7 +66,7 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - 🇪🇺 欧洲节点
       - 👌 手动切换
       -  🎯 全球直连
   - name: 📽 迪士尼视频
@@ -78,7 +78,7 @@ proxy-groups:
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
+      - 🇪🇺 欧洲节点
       - 🇺🇲 美国节点
       - 👌 手动切换
   - name: 📺 哔哩哔哩
@@ -87,6 +87,15 @@ proxy-groups:
       - 🎯 全球直连
       - 🇨🇳 台湾节点
       - 🇭🇰 香港节点
+  - name: 📹 emby
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇪🇺 欧洲节点
+      - 👌 手动切换
+      - 🇸🇬 新加坡节点
+      -  🎯 全球直连
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -96,7 +105,7 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - 🇪🇺 欧洲节点
       - 👌 手动切换
       -  🎯 全球直连
   - name: 🌏 国内媒体
@@ -107,7 +116,7 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
+      - 🇪🇺 欧洲节点
       - 👌 手动切换
   - name: Ⓜ️ 微软服务
     type: select
@@ -119,7 +128,7 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
+      - 🇪🇺 欧洲节点
       - 👌 手动切换
   - name: 🍎 苹果服务
     type: select
@@ -131,7 +140,7 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
+      - 🇪🇺 欧洲节点
       - 👌 手动切换
   - name: 🎮 游戏平台
     type: select
@@ -143,7 +152,7 @@ proxy-groups:
       - 🇨🇳 台湾节点
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
+      - 🇪🇺 欧洲节点
       - 👌 手动切换
   - name: 🎯 全球直连
     type: select
@@ -165,7 +174,7 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
+      - 🇪🇺 欧洲节点
       - 👌 手动切换
   - name: 🇭🇰 香港节点
     type: url-test
@@ -197,19 +206,19 @@ proxy-groups:
     interval: 300
     use: 
       - Singapore
-  - name: 🇰🇷 韩国节点
+  - name: 🇪🇺 欧洲节点 
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     use: 
-      - KR
+      - EU
 proxy-providers: 
   HK:
     type: http
     url: "url机场订阅"
     interval: 3600
     filter: '香港|Hong Kong'
-    path: ./Proxy/hongkong_suwatorjan.yaml
+    path: ./Proxy/hongkong_机场torjan.yaml
     health-check:
       enable: true
       interval: 600
@@ -219,7 +228,7 @@ proxy-providers:
     url: "url机场订阅"
     interval: 3600
     filter: '新加坡|狮城|Singapore'
-    path: ./Proxy/Singapor_suwatorjane.yaml
+    path: ./Proxy/Singapor_机场torjane.yaml
     health-check:
       enable: true
       interval: 600
@@ -229,7 +238,7 @@ proxy-providers:
     url: "url机场订阅"
     interval: 3600
     filter: '台湾|Taiwan'
-    path: ./Proxy/TaiWan_suwatorjan.yaml
+    path: ./Proxy/TaiWan_机场torjan.yaml
     health-check:
       enable: true
       interval: 600
@@ -239,7 +248,7 @@ proxy-providers:
     url: "url机场订阅"
     interval: 3600
     filter: '美国|United'
-    path: ./Proxy/United_suwatorjan.yaml
+    path: ./Proxy/United_机场torjan.yaml
     health-check:
       enable: true
       interval: 600
@@ -249,17 +258,17 @@ proxy-providers:
     url: "url机场订阅"
     interval: 3600
     filter: '日本|Japan'
-    path: ./Proxy/Japan_suwatorjan.yaml
+    path: ./Proxy/Japan_机场torjan.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-  KR:
+  EU:
     type: http
     url: "url机场订阅"
     interval: 3600
-    filter: '韩国|South Korea'
-    path: ./Proxy/KR_suwatorjan.yaml
+    filter: '德国|俄罗斯|乌克兰|爱尔兰|英国|法国|冰岛|荷兰|意大利|匈牙利'
+    path: ./Proxy/EU_机场torjan.yaml
     health-check:
       enable: true
       interval: 600
@@ -268,7 +277,7 @@ proxy-providers:
     type: http
     url: "url机场订阅"
     interval: 3600
-    path: ./Proxy/Global_suwatorjan.yaml
+    path: ./Proxy/Global_机场torjan.yaml
     health-check:
       enable: true
       interval: 600
@@ -283,6 +292,7 @@ rules:
   - RULE-SET,disney,📽 迪士尼视频
   - RULE-SET,bahumut,🇨🇳 台湾节点
   - RULE-SET,bilibili,📺 哔哩哔哩
+  - RULE-SET,emby,📹 emby
   - RULE-SET,streamingcn,🌏 国内媒体
   - RULE-SET,streaming,🌍 国外媒体
   - RULE-SET,game,🎮 游戏平台
@@ -352,6 +362,12 @@ rule-providers:
     url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/bahumut.yaml"
     interval: 3600
     path: ./RuleSet/bahumut.yaml
+  emby:
+    behavior: classical
+    type: http
+    url: "https://raw.githubusercontent.com/rule-airport/quantumult-X-rule/main/clash/emby.yaml"
+    interval: 3600
+    path: ./RuleSet/emby.yaml
   bilibili:
     behavior: classical
     type: http
