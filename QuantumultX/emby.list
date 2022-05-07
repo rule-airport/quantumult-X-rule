@@ -1,5 +1,13 @@
-DOMAIN-SUFFIX,emby.misakaf.xyz,emby
-DOMAIN-SUFFIX,jellyfin.xeton.dev,emby
-ip-cidr,104.21.233.209,emby
-ip-cidr,194.180.179.226,emby
-ip-cidr,204.44.98.51,emby
+#卷毛鼠
+DOMAIN-SUFFIX,jmsooo.com,📹 emby
+#polo emby
+DOMAIN-SUFFIX,poloemby.xyz,📹 emby
+DOMAIN-SUFFIX,77is.top,📹 emby
+#misakaf emby
+DOMAIN-SUFFIX,misakaf.xyz,📹 emby
+#texon emby
+IP-CIDR,203.198.94.90/32,📹 emby,no-resolve
+#我想吃掉你的胰脏
+IP-CIDR,45.92.156.143/32,📹 emby,no-resolve
+#Singularity Emby
+DOMAIN-SUFFIX,singularity.deja-vu.beauty,📹 emby
