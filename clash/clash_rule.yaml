@@ -217,7 +217,7 @@ proxy-providers:
     type: http
     url: "url机场订阅"
     interval: 3600
-    filter: '香港|Hong Kong'
+    filter: '香港0[145]|菜场香港|香港[标实高]'
     path: ./Proxy/hongkong_机场torjan.yaml
     health-check:
       enable: true
@@ -227,7 +227,7 @@ proxy-providers:
     type: http
     url: "url机场订阅"
     interval: 3600
-    filter: '新加坡|狮城|Singapore'
+    filter: '新加坡0[145]|菜场新加坡|新加坡[标实高]'
     path: ./Proxy/Singapor_机场torjane.yaml
     health-check:
       enable: true
@@ -237,7 +237,7 @@ proxy-providers:
     type: http
     url: "url机场订阅"
     interval: 3600
-    filter: '台湾|Taiwan'
+    filter: '台灣|台湾|Taiwan'
     path: ./Proxy/TaiWan_机场torjan.yaml
     health-check:
       enable: true
@@ -247,7 +247,7 @@ proxy-providers:
     type: http
     url: "url机场订阅"
     interval: 3600
-    filter: '美国|United'
+    filter: '美国0[145]|美國|美国[标实高]|United'
     path: ./Proxy/United_机场torjan.yaml
     health-check:
       enable: true
@@ -257,7 +257,7 @@ proxy-providers:
     type: http
     url: "url机场订阅"
     interval: 3600
-    filter: '日本|Japan'
+    filter: '日本0[145]|菜场日本|日本[标实]'
     path: ./Proxy/Japan_机场torjan.yaml
     health-check:
       enable: true
