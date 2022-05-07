@@ -1,0 +1,14 @@
+payload:
+  #卷毛鼠
+  - DOMAIN-SUFFIX,jmsooo.com
+  #polo emby
+  - DOMAIN-SUFFIX,poloemby.xyz
+  - DOMAIN-SUFFIX,77is.top
+  #misakaf emby
+  - DOMAIN-SUFFIX,misakaf.xyz
+  #texon emby
+  - IP-CIDR,203.198.94.90/32,no-resolve
+  #我想吃掉你的胰脏
+  - IP-CIDR,45.92.156.143/32,no-resolve
+  #Singularity Emby
+  - DOMAIN-SUFFIX,deja-vu.beauty
