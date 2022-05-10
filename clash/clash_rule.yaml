@@ -63,7 +63,6 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇪🇺 欧洲节点
       - 👌 手动切换
-      -  🎯 全球直连
   - name: 📽 迪士尼视频
     type: select
     proxies:
@@ -103,7 +102,7 @@ proxy-groups:
   - name: 🌏 国内媒体
     type: select
     proxies:
-      -  🎯 全球直连
+      - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇸🇬 新加坡节点
@@ -113,7 +112,7 @@ proxy-groups:
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
-      -  🎯 全球直连
+      - 🎯 全球直连
       - 🇺🇲 美国节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -124,7 +123,7 @@ proxy-groups:
   - name: 🍎 苹果服务
     type: select
     proxies:
-      -  🎯 全球直连
+      - 🎯 全球直连
       - 🇺🇲 美国节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -135,7 +134,7 @@ proxy-groups:
   - name: 🎮 游戏平台
     type: select
     proxies:
-      -  🎯 全球直连
+      - 🎯 全球直连
       - 🇺🇲 美国节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -156,8 +155,8 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      -  🎯 全球直连
       - 🇭🇰 香港节点
+      - 🎯 全球直连
       - 🇨🇳 台湾节点
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本节点
@@ -201,75 +200,37 @@ proxy-groups:
     use: 
       - EU
 proxy-providers: 
+  ALL: &ALL
+    type: http
+    #多个连接使用|分隔开即可
+    url: "机场link"
+    interval: 3600
+    path: ./Proxy/机场.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
   HK:
-    type: http
-    url: "url机场订阅"
-    interval: 3600
-    filter: '香港0[145]|菜场香港|香港[标实高]'
-    path: ./Proxy/hongkong_机场torjan.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
+    <<: *ALL
+    filter: 香港[01][25]|菜场香港|香港[实标高]|香港[ABCDGH]
   Singapore:
-    type: http
-    url: "url机场订阅"
-    interval: 3600
-    filter: '新加坡0[145]|菜场新加坡|新加坡[标实高]'
-    path: ./Proxy/Singapor_机场torjane.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
+    <<: *ALL
+    filter: 新加坡[01][25]|菜场新加坡|新加坡[标实高]|新加坡[AB]
   TaiWan:
-    type: http
-    url: "url机场订阅"
-    interval: 3600
-    filter: '台灣|台湾|Taiwan'
-    path: ./Proxy/TaiWan_机场torjan.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
+    <<: *ALL
+    filter: 台湾 \| |台湾 TW|台灣|台湾[标高]|台湾[01][25]
   United:
-    type: http
-    url: "url机场订阅"
-    interval: 3600
-    filter: '美国0[145]|美國|美国[标实高]|United'
-    path: ./Proxy/United_机场torjan.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
+    <<: *ALL
+    filter: 美国[01][25]|菜场美國|美国[标实高]
   Japan:
-    type: http
-    url: "url机场订阅"
-    interval: 3600
-    filter: '日本0[145]|菜场日本|日本[标实]'
-    path: ./Proxy/Japan_机场torjan.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
+    <<: *ALL
+    filter: 日本[01][25]|菜场日本|日本[标实]|日本[ABC]|日本 JP
   EU:
-    type: http
-    url: "url机场订阅"
-    interval: 3600
-    filter: '德国|俄罗斯|乌克兰|爱尔兰|英国|法国|冰岛|荷兰|意大利|匈牙利'
-    path: ./Proxy/EU_机场torjan.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
+    <<: *ALL
+    filter: 德国|俄罗斯0[245]|俄罗斯标|乌克兰|爱尔兰|英国0[245]|英国标|法国|冰岛|荷兰|意大利|匈牙利|西班牙|瑞士
   Global:
-    type: http
-    url: "url机场订阅"
-    interval: 3600
-    path: ./Proxy/Global_机场torjan.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
+    <<: *ALL
+  
 rules:
   - RULE-SET,direct1,🎯 全球直连
   - RULE-SET,youtube,📹 油管视频
