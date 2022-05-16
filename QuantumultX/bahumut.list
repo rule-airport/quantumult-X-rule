@@ -1,11 +1,11 @@
-DOMAIN-SUFFIX,api.ipify.org,🇨🇳 台湾节点
-DOMAIN-SUFFIX,bahamut.com.tw,🇨🇳 台湾节点
-DOMAIN-SUFFIX,cdn.hinet.net,🇨🇳 台湾节点
-DOMAIN-SUFFIX,gamer.com.tw,🇨🇳 台湾节点
-DOMAIN-SUFFIX,unityads.unity3d.com,🇨🇳 台湾节点
-DOMAIN-SUFFIX,vidol.tv,🇨🇳 台湾节点
-DOMAIN,bahamut.akamaized.net,🇨🇳 台湾节点
-DOMAIN,gamer2-cds.cdn.hinet.net,🇨🇳 台湾节点
-DOMAIN,gamer-cds.cdn.hinet.net,🇨🇳 台湾节点
-USER-AGENT,Anime*,🇨🇳 台湾节点
-USER-AGENT,Vidol*,🇨🇳 台湾节点
+DOMAIN-SUFFIX,api.ipify.org
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,cdn.hinet.net
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN-SUFFIX,unityads.unity3d.com
+DOMAIN-SUFFIX,vidol.tv
+DOMAIN,bahamut.akamaized.net
+DOMAIN,gamer2-cds.cdn.hinet.net
+DOMAIN,gamer-cds.cdn.hinet.net
+USER-AGENT,Anime*
+USER-AGENT,Vidol*

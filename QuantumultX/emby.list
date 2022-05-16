@@ -1,13 +1,13 @@
 #卷毛鼠
-DOMAIN-SUFFIX,jmsooo.com,📹 emby
+DOMAIN-SUFFIX,jmsooo.com
 #polo emby
-DOMAIN-SUFFIX,poloemby.xyz,📹 emby
-DOMAIN-SUFFIX,77is.top,📹 emby
+DOMAIN-SUFFIX,poloemby.xyz
+DOMAIN-SUFFIX,77is.top
 #misakaf emby
-DOMAIN-SUFFIX,misakaf.xyz,📹 emby
+DOMAIN-SUFFIX,misakaf.xyz
 #texon emby
-IP-CIDR,203.198.94.90/32,📹 emby,no-resolve
+IP-CIDR,203.198.94.90/32,no-resolve
 #我想吃掉你的胰脏
-IP-CIDR,45.92.156.143/32,📹 emby,no-resolve
+IP-CIDR,45.92.156.143/32,no-resolve
 #Singularity Emby
-DOMAIN-SUFFIX,singularity.deja-vu.beauty,📹 emby
+DOMAIN-SUFFIX,singularity.deja-vu.beauty

@@ -1,34 +1,34 @@
-DOMAIN-KEYWORD,apple,🍎 苹果服务
-DOMAIN-KEYWORD,icloud,🍎 苹果服务
-DOMAIN-KEYWORD,itunes,🍎 苹果服务
-DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
-DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
-DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
-DOMAIN-SUFFIX,apple.co,🍎 苹果服务
-DOMAIN-SUFFIX,apple.com,🍎 苹果服务
-DOMAIN-SUFFIX,apple.com.cn,🍎 苹果服务
-DOMAIN-SUFFIX,apple.news,🍎 苹果服务
-DOMAIN-SUFFIX,appsto.re,🍎 苹果服务
-DOMAIN-SUFFIX,appstore.com,🍎 苹果服务
-DOMAIN-SUFFIX,cdn-apple.com,🍎 苹果服务
-DOMAIN-SUFFIX,crashlytics.com,🍎 苹果服务
-DOMAIN-SUFFIX,icloud-content.com,🍎 苹果服务
-DOMAIN-SUFFIX,icloud.com,🍎 苹果服务
-DOMAIN-SUFFIX,icloud.com.cn,🍎 苹果服务
-DOMAIN-SUFFIX,itunes-apple.com.akadns.net,🍎 苹果服务
-DOMAIN-SUFFIX,itunes.com,🍎 苹果服务
-DOMAIN-SUFFIX,me.com,🍎 苹果服务
-DOMAIN-SUFFIX,mzstatic.com,🍎 苹果服务
-DOMAIN,apple.comscoreresearch.com,🍎 苹果服务
-DOMAIN,appleiphonecell.com,🍎 苹果服务
-IP-CIDR,17.0.0.0/8,🍎 苹果服务,no-resolve
-IP-CIDR,63.92.224.0/19,🍎 苹果服务,no-resolve
-IP-CIDR,65.199.22.0/23,🍎 苹果服务,no-resolve
-IP-CIDR,139.178.128.0/18,🍎 苹果服务,no-resolve
-IP-CIDR,144.178.0.0/19,🍎 苹果服务,no-resolve
-IP-CIDR,144.178.36.0/22,🍎 苹果服务,no-resolve
-IP-CIDR,144.178.48.0/20,🍎 苹果服务,no-resolve
-IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
-IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
-IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
-USER-AGENT,AppStore*,🍎 苹果服务
+DOMAIN-KEYWORD,apple
+DOMAIN-KEYWORD,icloud
+DOMAIN-KEYWORD,itunes
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,apple.comscoreresearch.com
+DOMAIN,appleiphonecell.com
+IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR,63.92.224.0/19,no-resolve
+IP-CIDR,65.199.22.0/23,no-resolve
+IP-CIDR,139.178.128.0/18,no-resolve
+IP-CIDR,144.178.0.0/19,no-resolve
+IP-CIDR,144.178.36.0/22,no-resolve
+IP-CIDR,144.178.48.0/20,no-resolve
+IP-CIDR,192.35.50.0/24,no-resolve
+IP-CIDR,198.183.17.0/24,no-resolve
+IP-CIDR,205.180.175.0/24,no-resolve
+USER-AGENT,AppStore*

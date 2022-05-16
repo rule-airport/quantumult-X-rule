@@ -1,27 +1,27 @@
-DOMAIN-SUFFIX,epicgames.com,🎮 游戏平台
-DOMAIN-SUFFIX,fanatical.com,🎮 游戏平台
-DOMAIN-SUFFIX,helpshift.com,🎮 游戏平台
-DOMAIN-SUFFIX,humblebundle.com,🎮 游戏平台
-DOMAIN-SUFFIX,paragon.com,🎮 游戏平台
-DOMAIN-SUFFIX,playartifact.com,🎮 游戏平台
-DOMAIN-SUFFIX,playstation.com,🎮 游戏平台
-DOMAIN-SUFFIX,playstation.net,🎮 游戏平台
-DOMAIN-SUFFIX,playstationnetwork.com,🎮 游戏平台
-DOMAIN-SUFFIX,sony.com,🎮 游戏平台
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎮 游戏平台
-DOMAIN-SUFFIX,steam-chat.com,🎮 游戏平台
-DOMAIN-SUFFIX,steamcommunity.com,🎮 游戏平台
-DOMAIN-SUFFIX,steamgames.com,🎮 游戏平台
-DOMAIN-SUFFIX,steampowered.com,🎮 游戏平台
-DOMAIN-SUFFIX,steamstat.us,🎮 游戏平台
-DOMAIN-SUFFIX,steamstatic.com,🎮 游戏平台
-DOMAIN-SUFFIX,underlords.com,🎮 游戏平台
-DOMAIN-SUFFIX,unrealengine.com,🎮 游戏平台
-DOMAIN-SUFFIX,valvesoftware.com,🎮 游戏平台
-DOMAIN,steambroadcast.akamaized.net,🎮 游戏平台
-DOMAIN,steamcdn-a.akamaihd.net,🎮 游戏平台
-DOMAIN,steamcommunity-a.akamaihd.net,🎮 游戏平台
-DOMAIN,steampipe.akamaized.net,🎮 游戏平台
-DOMAIN,steamstore-a.akamaihd.net,🎮 游戏平台
-DOMAIN,steamusercontent-a.akamaihd.net,🎮 游戏平台
-DOMAIN,steamuserimages-a.akamaihd.net,🎮 游戏平台
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,fanatical.com
+DOMAIN-SUFFIX,helpshift.com
+DOMAIN-SUFFIX,humblebundle.com
+DOMAIN-SUFFIX,paragon.com
+DOMAIN-SUFFIX,playartifact.com
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
+DOMAIN-SUFFIX,sony.com
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamstat.us
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,underlords.com
+DOMAIN-SUFFIX,unrealengine.com
+DOMAIN-SUFFIX,valvesoftware.com
+DOMAIN,steambroadcast.akamaized.net
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN,steamcommunity-a.akamaihd.net
+DOMAIN,steampipe.akamaized.net
+DOMAIN,steamstore-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net

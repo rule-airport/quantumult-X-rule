@@ -1,19 +1,19 @@
-DOMAIN-SUFFIX,t.me,📲 电报消息
-DOMAIN-SUFFIX,tdesktop.com,📲 电报消息
-DOMAIN-SUFFIX,telegra.ph,📲 电报消息
-DOMAIN-SUFFIX,telegram.me,📲 电报消息
-DOMAIN-SUFFIX,telegram.org,📲 电报消息
-DOMAIN-SUFFIX,telesco.pe,📲 电报消息
-IP-CIDR,91.108.0.0/16,📲 电报消息,no-resolve
-IP-CIDR,109.239.140.0/24,📲 电报消息,no-resolve
-IP-CIDR,149.154.160.0/20,📲 电报消息,no-resolve
-IP-CIDR,67.198.55.0/24,📲 电报消息,no-resolve
-IP-CIDR,91.108.4.0/22,📲 电报消息,no-resolve
-IP-CIDR,91.108.8.0/22,📲 电报消息,no-resolve
-IP-CIDR,91.108.12.0/22,📲 电报消息,no-resolve
-IP-CIDR,91.108.16.0/22,📲 电报消息,no-resolve
-IP-CIDR,91.108.56.0/22,📲 电报消息,no-resolve
-IP-CIDR,149.154.164.0/22,📲 电报消息,no-resolve
-IP-CIDR,149.154.168.0/22,📲 电报消息,no-resolve
-IP-CIDR,149.154.172.0/22,📲 电报消息,no-resolve
-IP-CIDR,205.172.60.0/22,📲 电报消息,no-resolve
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telesco.pe
+IP-CIDR,91.108.0.0/16,no-resolve
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,67.198.55.0/24,no-resolve
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,91.108.12.0/22,no-resolve
+IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,149.154.164.0/22,no-resolve
+IP-CIDR,149.154.168.0/22,no-resolve
+IP-CIDR,149.154.172.0/22,no-resolve
+IP-CIDR,205.172.60.0/22,no-resolve
