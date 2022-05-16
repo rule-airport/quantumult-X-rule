@@ -212,11 +212,7 @@ DOMAIN,np-edge.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
 DOMAIN,players.brightcove.net
 DOMAIN,s3-ap-southeast-1.amazonaws.com
-DOMAIN-SUFFIX,jellyfin.xeton.dev,emby
 DOMAIN,videos-f.jwpsrv.com
 DOMAIN,vod-dash-uk-live.akamaized.net
 DOMAIN,vod-thumb-uk-live.akamaized.net
-ip-cidr,104.21.233.209,emby
-ip-cidr,194.180.179.226,emby
-ip-cidr,204.44.98.51,emby
 USER-AGENT,*Spotify*
