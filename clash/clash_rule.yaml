@@ -28,7 +28,7 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇪🇺 欧洲节点
       - 👌 手动切换
-      - 🎯 全球直连
+      - DIRECT
   - name: 👌 手动切换
     type: select
     use: 
@@ -43,17 +43,7 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇪🇺 欧洲节点
       - 👌 手动切换
-  - name: 🌐 谷歌
-    type: select
-    proxies:
-      - 🇺🇲 美国节点
-      - 🇸🇬 新加坡节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇪🇺 欧洲节点
-      - 👌 手动切换
-  - name: 🎥 奈飞视频
+  - name: 🎥 流媒体
     type: select
     proxies:
       - 🇸🇬 新加坡节点
@@ -62,21 +52,11 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇪🇺 欧洲节点
-      - 👌 手动切换
-  - name: 📽 迪士尼视频
-    type: select
-    proxies:
-      - 🇸🇬 新加坡节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇪🇺 欧洲节点
-      - 🇺🇲 美国节点
       - 👌 手动切换
   - name: 📺 哔哩哔哩
     type: select
     proxies:
-      - 🎯 全球直连
+      - DIRECT
       - 🇨🇳 台湾节点
       - 🇭🇰 香港节点
   - name: 📹 emby
@@ -87,43 +67,11 @@ proxy-groups:
       - 🇪🇺 欧洲节点
       - 👌 手动切换
       - 🇸🇬 新加坡节点
-      - 🎯 全球直连
-  - name: 🌍 国外媒体
-    type: select
-    proxies:
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 新加坡节点
-      - 🇯🇵 日本节点
-      - 🇪🇺 欧洲节点
-      - 👌 手动切换
-      - 🎯 全球直连
-  - name: 🌏 国内媒体
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 新加坡节点
-      - 🇯🇵 日本节点
-      - 🇪🇺 欧洲节点
-      - 👌 手动切换
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 新加坡节点
-      - 🇯🇵 日本节点
-      - 🇪🇺 欧洲节点
-      - 👌 手动切换
+      - DIRECT
   - name: 🍎 苹果服务
     type: select
     proxies:
-      - 🎯 全球直连
+      - DIRECT
       - 🇺🇲 美国节点
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
@@ -131,32 +79,11 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇪🇺 欧洲节点
       - 👌 手动切换
-  - name: 🎮 游戏平台
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 新加坡节点
-      - 🇯🇵 日本节点
-      - 🇪🇺 欧洲节点
-      - 👌 手动切换
-  - name: 🎯 全球直连
-    type: select
-    proxies:
-      - DIRECT
-      - REJECT
-  - name: 🛑 广告拦截
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🇭🇰 香港节点
-      - 🎯 全球直连
+      - DIRECT
       - 🇨🇳 台湾节点
       - 🇸🇬 新加坡节点
       - 🇯🇵 日本节点
@@ -200,7 +127,7 @@ proxy-groups:
     use: 
       - EU
 proxy-providers: 
-  ALL: &ALL
+  机场: &ALL
     type: http
     #多个连接使用|分隔开即可
     url: "机场link"
@@ -232,27 +159,27 @@ proxy-providers:
     <<: *ALL
   
 rules:
-  - RULE-SET,direct1,🎯 全球直连
+  - RULE-SET,direct1,DIRECT
   - RULE-SET,youtube,📹 油管视频
-  - RULE-SET,google,🌐 谷歌
-  - RULE-SET,microsoft,Ⓜ️ 微软服务
+  - RULE-SET,google,🇺🇲 美国节点
+  - RULE-SET,microsoft,DIRECT
   - RULE-SET,apple,🍎 苹果服务
-  - RULE-SET,netflix,🎥 奈飞视频
-  - RULE-SET,disney,📽 迪士尼视频
+  - RULE-SET,netflix,🎥 流媒体
+  - RULE-SET,disney,🎥 流媒体
   - RULE-SET,bahumut,🇨🇳 台湾节点
   - RULE-SET,bilibili,📺 哔哩哔哩
   - RULE-SET,emby,📹 emby
-  - RULE-SET,streamingcn,🌏 国内媒体
-  - RULE-SET,streaming,🌍 国外媒体
-  - RULE-SET,game,🎮 游戏平台
+  - RULE-SET,streamingcn,DIRECT
+  - RULE-SET,streaming,🇺🇲 美国节点
+  - RULE-SET,game,🚀 节点选择
   - RULE-SET,select,🚀 节点选择
-  - RULE-SET,adblock,🛑 广告拦截
+  - RULE-SET,adblock,REJECT
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
   - IP-CIDR,172.16.0.0/12,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR,224.0.0.0/4,DIRECT
-  - GEOIP,CN,🎯 全球直连
+  - GEOIP,CN,DIRECT
   - MATCH,🐟 漏网之鱼
 rule-providers:
 
