@@ -10,6 +10,6 @@ IP-CIDR,203.198.94.90/32,no-resolve
 #我想吃掉你的胰脏
 IP-CIDR,45.92.156.143/32,no-resolve
 #Singularity Emby
-DOMAIN-KEYWORLD,singularity
+DOMAIN-KEYWORD,singularity
 #品云
 DOMAIN-SUFFIX,embyplus.club
