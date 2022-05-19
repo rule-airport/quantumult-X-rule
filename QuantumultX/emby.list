@@ -13,3 +13,5 @@ IP-CIDR,45.92.156.143/32,no-resolve
 DOMAIN-KEYWORD,singularity
 #品云 emby
 DOMAIN-SUFFIX,embyplus.club
+#misty
+DOMAIN-SUFFIX, aaa.ax
