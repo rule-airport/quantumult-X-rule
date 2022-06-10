@@ -154,10 +154,10 @@ DOMAIN-SUFFIX,43110.cf
 DOMAIN-SUFFIX,466453.com
 DOMAIN-SUFFIX,881903.com
 DOMAIN-SUFFIX,9001700.com
-DOMAIN-SUFFIX, bam.eu01.nr-data.net, 🚀 节点选择
-DOMAIN-SUFFIX, coinbase.com, 🚀 节点选择
-DOMAIN-SUFFIX, forter.com, 🚀 节点选择
-DOMAIN-SUFFIX, sardine.ai, 🚀 节点选择
+DOMAIN-SUFFIX, bam.eu01.nr-data.net
+DOMAIN-SUFFIX, coinbase.com
+DOMAIN-SUFFIX, forter.com
+DOMAIN-SUFFIX, sardine.ai
 DOMAIN-SUFFIX,a-normal-day.com
 DOMAIN-SUFFIX,aamacau.com
 DOMAIN-SUFFIX,abc.com
@@ -5766,7 +5766,7 @@ DOMAIN-SUFFIX,zyzc9.com
 DOMAIN-SUFFIX,zzcartoon.com
 DOMAIN-SUFFIX,zzcloud.me
 DOMAIN-SUFFIX,zzux.com
-DOMAIN, api.userleap.com, 🚀 节点选择
+DOMAIN, api.userleap.com
 DOMAIN,firebase-settings.crashlytics.com
 DOMAIN,static-file-1259603563.file.myqcloud.com
 DOMAIN,steambroadcast.akamaized.net
