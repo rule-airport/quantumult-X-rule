@@ -618,10 +618,3 @@ IP-CIDR,216.73.80.0/20,no-resolve
 IP-CIDR,220.181.174.34/32,no-resolve
 IP-CIDR,220.181.174.162/32,no-resolve
 IP-CIDR,220.181.174.226/32,no-resolve
-PROCESS-NAME,backupandsync
-PROCESS-NAME,com.android.vending
-PROCESS-NAME,com.google.android.gms
-PROCESS-NAME,com.google.android.gsf
-PROCESS-NAME,com.google.android.play.games
-USER-AGENT,*com.google.Drive*
-USER-AGENT,Google.Drive*
