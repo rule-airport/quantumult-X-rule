@@ -1,3 +1,15 @@
+DOMAIN,api.userleap.com
+DOMAIN,binance-1259603563.file.myqcloud.com
+DOMAIN,domain-config-1259603563.file.myqcloud.com
+DOMAIN,firebase-settings.crashlytics.com
+DOMAIN,static-file-1259603563.file.myqcloud.com
+DOMAIN,steambroadcast.akamaized.net
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN,steamcommunity-a.akamaihd.net
+DOMAIN,steampipe.akamaized.net
+DOMAIN,steamstore-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,1e100
 DOMAIN-KEYWORD,appledaily
@@ -18,8 +30,6 @@ DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-SUFFIX,0rz.tw
-DOMAIN-SUFFIX,geetest.com
-DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,1-apple.com.tw
 DOMAIN-SUFFIX,1bao.org
@@ -154,10 +164,6 @@ DOMAIN-SUFFIX,43110.cf
 DOMAIN-SUFFIX,466453.com
 DOMAIN-SUFFIX,881903.com
 DOMAIN-SUFFIX,9001700.com
-DOMAIN-SUFFIX, bam.eu01.nr-data.net
-DOMAIN-SUFFIX, coinbase.com
-DOMAIN-SUFFIX, forter.com
-DOMAIN-SUFFIX, sardine.ai
 DOMAIN-SUFFIX,a-normal-day.com
 DOMAIN-SUFFIX,aamacau.com
 DOMAIN-SUFFIX,abc.com
@@ -460,6 +466,7 @@ DOMAIN-SUFFIX,baijie.org
 DOMAIN-SUFFIX,bailandaily.com
 DOMAIN-SUFFIX,baixing.me
 DOMAIN-SUFFIX,bakgeekhome.tk
+DOMAIN-SUFFIX,bam.eu01.nr-data.net
 DOMAIN-SUFFIX,banana-vpn.com
 DOMAIN-SUFFIX,band.us
 DOMAIN-SUFFIX,bandcamp.com
@@ -1020,6 +1027,7 @@ DOMAIN-SUFFIX,codeplex.com
 DOMAIN-SUFFIX,codeshare.io
 DOMAIN-SUFFIX,codeskulptor.org
 DOMAIN-SUFFIX,coin2co.in
+DOMAIN-SUFFIX,coinbase.com
 DOMAIN-SUFFIX,coinbene.com
 DOMAIN-SUFFIX,coinegg.com
 DOMAIN-SUFFIX,coinex.com
@@ -1716,6 +1724,7 @@ DOMAIN-SUFFIX,foolsmountain.com
 DOMAIN-SUFFIX,fooooo.com
 DOMAIN-SUFFIX,foreignaffairs.com
 DOMAIN-SUFFIX,foreignpolicy.com
+DOMAIN-SUFFIX,forter.com
 DOMAIN-SUFFIX,forum4hk.com
 DOMAIN-SUFFIX,forums-free.com
 DOMAIN-SUFFIX,fotile.me
@@ -1896,6 +1905,7 @@ DOMAIN-SUFFIX,gdzf.org
 DOMAIN-SUFFIX,geek-art.net
 DOMAIN-SUFFIX,geekerhome.com
 DOMAIN-SUFFIX,geekheart.info
+DOMAIN-SUFFIX,geetest.com
 DOMAIN-SUFFIX,gekikame.com
 DOMAIN-SUFFIX,gelbooru.com
 DOMAIN-SUFFIX,genius.com
@@ -2066,7 +2076,6 @@ DOMAIN-SUFFIX,grotty-monday.com
 DOMAIN-SUFFIX,grow.google
 DOMAIN-SUFFIX,gs-discuss.com
 DOMAIN-SUFFIX,gsearch.media
-DOMAIN-SUFFIX,gstatic.cn
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gtricks.com
 DOMAIN-SUFFIX,gts-vpn.com
@@ -2203,10 +2212,10 @@ DOMAIN-SUFFIX,hizb-ut-tahrir.info
 DOMAIN-SUFFIX,hizb-ut-tahrir.org
 DOMAIN-SUFFIX,hizbuttahrir.org
 DOMAIN-SUFFIX,hjclub.info
+DOMAIN-SUFFIX,hk
 DOMAIN-SUFFIX,hk01.com
 DOMAIN-SUFFIX,hk32168.com
 DOMAIN-SUFFIX,hk-pub.com
-DOMAIN-SUFFIX,hk
 DOMAIN-SUFFIX,hkacg.com
 DOMAIN-SUFFIX,hkacg.net
 DOMAIN-SUFFIX,hkatvnews.com
@@ -2463,7 +2472,6 @@ DOMAIN-SUFFIX,indianarrative.com
 DOMAIN-SUFFIX,indiandefensenews.in
 DOMAIN-SUFFIX,indiatimes.com
 DOMAIN-SUFFIX,indiemerch.com
-DOMAIN-SUFFIX,idrivecompute.com
 DOMAIN-SUFFIX,info-graf.fr
 DOMAIN-SUFFIX,informer.com
 DOMAIN-SUFFIX,infura.io
@@ -4098,6 +4106,7 @@ DOMAIN-SUFFIX,sankei.com
 DOMAIN-SUFFIX,sanmin.com.tw
 DOMAIN-SUFFIX,sans.edu
 DOMAIN-SUFFIX,sapikachu.net
+DOMAIN-SUFFIX,sardine.ai
 DOMAIN-SUFFIX,saveliuxiaobo.com
 DOMAIN-SUFFIX,savemedia.com
 DOMAIN-SUFFIX,savethedate.foo
@@ -4786,7 +4795,6 @@ DOMAIN-SUFFIX,tibettimes.net
 DOMAIN-SUFFIX,tibetwrites.org
 DOMAIN-SUFFIX,ticket.com.tw
 DOMAIN-SUFFIX,tigervpn.com
-DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiltbrush.com
 DOMAIN-SUFFIX,timdir.com
 DOMAIN-SUFFIX,time.com
@@ -4931,10 +4939,10 @@ DOMAIN-SUFFIX,tvider.com
 DOMAIN-SUFFIX,tvmost.com.hk
 DOMAIN-SUFFIX,tvplayvideos.com
 DOMAIN-SUFFIX,tvunetworks.com
+DOMAIN-SUFFIX,tw
 DOMAIN-SUFFIX,tw01.org
 DOMAIN-SUFFIX,tw-blog.com
 DOMAIN-SUFFIX,tw-npo.org
-DOMAIN-SUFFIX,tw
 DOMAIN-SUFFIX,twaitter.com
 DOMAIN-SUFFIX,twapperkeeper.com
 DOMAIN-SUFFIX,twaud.io
@@ -5067,6 +5075,7 @@ DOMAIN-SUFFIX,ulike.net
 DOMAIN-SUFFIX,ulop.net
 DOMAIN-SUFFIX,ultravpn.fr
 DOMAIN-SUFFIX,ultraxs.com
+DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,umich.edu
 DOMAIN-SUFFIX,unblock-us.com
 DOMAIN-SUFFIX,unblockdmm.com
@@ -5761,22 +5770,10 @@ DOMAIN-SUFFIX,zynaima.com
 DOMAIN-SUFFIX,zynamics.com
 DOMAIN-SUFFIX,zyns.com
 DOMAIN-SUFFIX,zyxel.com
-DOMAIN,binance-1259603563.file.myqcloud.com
-DOMAIN,domain-config-1259603563.file.myqcloud.com
 DOMAIN-SUFFIX,zyzc9.com
 DOMAIN-SUFFIX,zzcartoon.com
 DOMAIN-SUFFIX,zzcloud.me
 DOMAIN-SUFFIX,zzux.com
-DOMAIN, api.userleap.com
-DOMAIN,firebase-settings.crashlytics.com
-DOMAIN,static-file-1259603563.file.myqcloud.com
-DOMAIN,steambroadcast.akamaized.net
-DOMAIN,steamcdn-a.akamaihd.net
-DOMAIN,steamcommunity-a.akamaihd.net
-DOMAIN,steampipe.akamaized.net
-DOMAIN,steamstore-a.akamaihd.net
-DOMAIN,steamusercontent-a.akamaihd.net
-DOMAIN,steamuserimages-a.akamaihd.net
 IP-CIDR,1.201.0.0/24,no-resolve
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
@@ -5814,6 +5811,7 @@ IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/22,no-resolve
 IP-CIDR,91.108.12.0/22,no-resolve
 IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.20.0/22,no-resolve
 IP-CIDR,91.108.56.0/22,no-resolve
 IP-CIDR,103.2.28.0/24,no-resolve
 IP-CIDR,103.2.30.0/23,no-resolve
@@ -5868,4 +5866,3 @@ IP-CIDR,208.43.122.128/27,no-resolve
 IP-CIDR,220.181.174.34/32,no-resolve
 IP-CIDR,220.181.174.162/32,no-resolve
 IP-CIDR,220.181.174.226/32,no-resolve
-IP-CIDR,91.108.20.0/22,no-resolve
