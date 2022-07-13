@@ -2,14 +2,14 @@
 DOMAIN-SUFFIX,jmsooo.com
 # polo
 DOMAIN-SUFFIX,poloemby.xyz
-DOMAIN-SUFFIX,77is.top
+DOMAIN-SUFFIX,,cloudapp.azure.com
 # misakaf
 DOMAIN-KEYWORD,misakaf
-#texon
+# texon
 IP-CIDR,203.198.94.90/32,no-resolve
-#我想吃掉你的胰脏
+# 我想吃掉你的胰脏
 IP-CIDR,45.92.156.143/32,no-resolve
-#Singularity
+# Singularity
 DOMAIN-SUFFIX,singularity.deja-vu.beauty
 # odyssey
 DOMAIN-SUFFIX,odysseyplus.site
@@ -17,3 +17,7 @@ DOMAIN-SUFFIX,odysseyplus.site
 DOMAIN-SUFFIX,embyplus.club
 # misty
 DOMAIN-SUFFIX,aaa.ax
+# CC emby
+DOMAIN-SUFFIX,jiasu.ga
+# Netcup
+DOMAIN-SUFFIX,404.sb
